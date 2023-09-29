@@ -17,6 +17,18 @@ sky = SubResource("Sky_u4taa")
 
 [node name="World" type="Node3D"]
 
+[node name="Floor2" type="StaticBody3D" parent="."]
+transform = Transform3D(0.0559978, 0, 0, 0, 0.745979, 0, 0, 0, -0.261846, 0, 0.885716, 33.6045)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor2"]
+transform = Transform3D(19.6832, 0, -3.14508e-06, 0, 1, 0, 3.44151e-06, 0, 17.9877, 0, 0, 0)
+mesh = SubResource("BoxMesh_0fb5o")
+skeleton = NodePath("../../Floor2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor2"]
+transform = Transform3D(19.6832, 0, -3.14508e-06, 0, 1, 0, 3.44151e-06, 0, 17.9877, 0, 0, 0)
+shape = SubResource("BoxShape3D_vp0pn")
+
 [node name="Floor" type="StaticBody3D" parent="."]
 transform = Transform3D(0.0557228, 0, 0, 0, 1, 0, 0, 0, 5.49205, 0, 0, 0)
 
