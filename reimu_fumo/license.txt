@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fumo Reimu
+* source:	https://sketchfab.com/3d-models/fumo-reimu-4cb1dec5f8a447079c2fed94bcfdbee4
+* author:	Gorgonych (https://sketchfab.com/Gorgonych)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fumo Reimu" (https://sketchfab.com/3d-models/fumo-reimu-4cb1dec5f8a447079c2fed94bcfdbee4) by Gorgonych (https://sketchfab.com/Gorgonych) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

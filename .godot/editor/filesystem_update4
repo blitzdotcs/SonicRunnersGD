@@ -1,0 +1,4 @@
+res://sonic_player.tscn
+res://world.tscn
+res://sonic_gameplay.tscn
+res://CharacterBody3D.gd
