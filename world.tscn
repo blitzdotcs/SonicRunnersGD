@@ -18,6 +18,7 @@ sky = SubResource("Sky_u4taa")
 [node name="World" type="Node3D"]
 
 [node name="Floor" type="StaticBody3D" parent="."]
+transform = Transform3D(0.0557228, 0, 0, 0, 1, 0, 0, 0, 5.49205, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Floor"]
 transform = Transform3D(19.6832, 0, -3.14508e-06, 0, 1, 0, 3.44151e-06, 0, 17.9877, 0, 0, 0)
@@ -28,11 +29,11 @@ transform = Transform3D(19.6832, 0, -3.14508e-06, 0, 1, 0, 3.44151e-06, 0, 17.98
 shape = SubResource("BoxShape3D_vp0pn")
 
 [node name="Sonic" parent="." instance=ExtResource("1_a2v4c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.45511, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.45511, 48.831)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Sonic"]
+transform = Transform3D(1, 0, 0, 0, 0.810461, 0.585793, 0, -0.585793, 0.810461, 0, 2.4108, 5.32941)
+shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_vi3xi")
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.810461, 0.585793, 0, -0.585793, 0.810461, 0, 3.86591, 5.32941)
-shadow_enabled = true

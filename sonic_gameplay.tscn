@@ -10281,7 +10281,7 @@ script = ExtResource("1_mxnlf")
 shape = SubResource("CapsuleShape3D_fp2hv")
 
 [node name="CameraBase" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26982, 1.08381)
+transform = Transform3D(0.0312363, 0, 0.999512, 0, 1, 0, -0.999512, 0, 0.0312363, 2.22501, 0.26982, -0.00137377)
 
 [node name="Camera3D" type="Camera3D" parent="CameraBase"]
 transform = Transform3D(1, 0, 0, 0, 0.987819, 0.155607, 0, -0.155607, 0.987819, 0, 0.81078, 2.94864)
